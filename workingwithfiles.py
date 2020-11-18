@@ -1,0 +1,5 @@
+h=open("files.txt","w")
+h.write("hello\nworld ")
+h.close()
+h=open("files.txt","a")
+h.write("wats up")
