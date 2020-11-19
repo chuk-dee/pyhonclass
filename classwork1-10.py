@@ -15,6 +15,7 @@ def slicer():
     print(word[1:4])
 
 slicer()
+print("====================================")
 
 #started
 def started(word,letter):
