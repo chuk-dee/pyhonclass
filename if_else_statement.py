@@ -36,3 +36,76 @@ if uname.lower()=="jerry" and passwd =="1234qwer":
     print("Login Successfull")
 else:
     print("Invalid Username or Password")
+
+
+
+val1 = 2
+val2 = 2
+print(val1 == val2)
+
+fst_score = float(input("enter a number: "))
+snd_score = float(input("enter a number: "))
+if fst_score == 50 and snd_score >= 30:
+    print("good one")
+else:
+    print("not good")
+
+# A SHOPPING PROGRAM
+beans = 300
+rice = 500
+beef = 750
+egg = 200
+chioma_money = int(input("please enter the amount you have: "))
+food = input("what do you want: ")
+while food  != "nothing":
+    if food == "beans":
+        print(f"it costs {beans}NGN")
+        ask = input("buying? ")
+        if ask.lower() == "yes":
+            chioma_money = chioma_money - beans
+            print(f"ping ping !!! you have {chioma_money} left")
+        elif ask.lower() == "no":
+            print("thanks for shopping")
+            break
+        else:
+            print("invalid response")
+            print("either (yes\no) is allowed")
+    elif food == "rice":
+        print(f"it costs {rice}NGN")
+        ask = input("buying? ")
+        if ask.lower() == "yes":
+            chioma_money = chioma_money - rice
+            print(f"ping ping!! you have {chioma_money} left")
+        elif ask.lower() == "no":
+            print("thanks for shopping")
+            break
+        else:
+            print("invalid response")
+            print("either (yes\no) is allowed")
+    elif food == "beef":
+        print(f"it costs {beef}NGN")
+        ask = input("buying? ")
+        if ask.lower() == "yes":
+            chioma_money = chioma_money - beef
+            print(f"ping ping!!{chioma_money} left")
+        elif ask.lower() == "no":
+            print("thanks for shopping")
+            break
+        else:
+            print("invalid response")
+            print("either (yes\no) is allowed")
+    elif food == "egg":
+        print(f"it costs {egg}NGN")
+        ask = input("buying? ")
+        if ask.lower() == "yes":
+            chioma_money = chioma_money - egg
+            print(f"ping ping!!{chioma_money}left")
+        elif ask.lower() == "no":
+            print("thanks for shopping")
+            break
+        else:
+            print("invalid response")
+    else:
+        print("invalid food item entered")
+        break
+print("thanks for shopping with us")

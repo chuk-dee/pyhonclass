@@ -7,3 +7,5 @@ elif num % 5 == 0:
     print("FIZZ")
 else:
     print(f"{num}, is not a multiple of 3 or 5")    
+
+print("============================================")

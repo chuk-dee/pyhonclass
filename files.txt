@@ -1,2 +1,8 @@
-hello
-world wats up
+hello this is a python class about files
+demo watsup
+getout
+ramesh@gmail.com
+george@outlook.com
+yadav@outlook.com
+shwetha@gmail.com
+parul@yahoo.co.in
